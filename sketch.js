@@ -27,9 +27,9 @@ function setup() {
 function draw() {
   background('#89e709');
 
-  for(var x = 150; x < width-150; x += 150)
+  for(var x = (width/2) -225; x < (width/2) +226; x += 150)
    {
-     for(var y = 150; y <height-150; y+=150)
+     for(var y = (height/2) -225; y < (height/2) +226; y+=150)
 	{
    myEye = new Eye(x, y);
      myEye.display();
